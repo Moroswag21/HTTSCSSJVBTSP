@@ -15,7 +15,7 @@
     <body>
 
         <!-- Aca comienza el navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
                 <img src="G:\One Drive\OneDrive\Escritorio\UTN\FULL STACK\Repositorios\HTTSCSSJVBTSP\Trabajo integrador\img\codoacodo.png" alt="60" width="100" height="60" class="d-inline-block">
@@ -36,7 +36,7 @@
                     <a class="nav-link" href="#">Conviertete en orador</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-success" href="#">Comprar tickets</a>
+                    <a class="nav-link text-success" href="G:\One Drive\OneDrive\Escritorio\UTN\FULL STACK\Repositorios\HTTSCSSJVBTSP\Trabajo integrador JS\index.html">Comprar tickets</a>
                   </li>
                 </ul>
               </div>
@@ -45,7 +45,7 @@
         <!-- Aca termina el navbar -->
 
         <!-- Aca comienza el carrusel -->
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide mb-3" data-bs-ride="carousel">
             <div class="carousel-inner ">
               <div class="carousel-item active">
                 <img src="G:\One Drive\OneDrive\Escritorio\UTN\FULL STACK\Repositorios\HTTSCSSJVBTSP\Trabajo integrador\img\ba1.jpg" class="d-block w-100" alt="Ciudad de Buenos Aires">
@@ -53,7 +53,7 @@
                   <h2>Conf Bs As</h2>
                   <p class="fs-5 lh-base">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
                   <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
-                  <button type="button" class="btn btn-success">Comprar tickets</button>
+                  <button type="button" class="btn btn-success" id="buttonComprarTickets" onclick="comprarTickets();">Comprar tickets</button>
                 </div>
               </div>
               <div class="carousel-item">
@@ -62,7 +62,7 @@
                     <h2>Conf Bs As</h2>
                     <p class="fs-5 lh-base">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
                     <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
-                    <button type="button" class="btn btn-success">Comprar tickets</button>
+                    <button type="button" class="btn btn-success" id="buttonComprarTickets" onclick="comprarTickets();">Comprar tickets</button>
                   </div>
               </div>
               <div class="carousel-item">
@@ -71,7 +71,7 @@
                     <h2>Conf Bs As</h2>
                     <p class="fs-5 lh-base">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
                     <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
-                    <button type="button" class="btn btn-success">Comprar tickets</button>
+                    <button type="button" class="btn btn-success" id="buttonComprarTickets" onclick="comprarTickets();">Comprar tickets</button>
                   </div>
               </div>
             </div>
@@ -87,8 +87,8 @@
         <!-- Aca termina el carrusel -->
 
         <!-- Aca comienzan los titulos -->
-        <div class="vstack gap-1">
-            <h6 class="text-center fw-normal">Conoce a los</h6>
+        <div class="vstack gap-1 mb-3">
+            <h6 class="text-center fw-normal mb-3">Conoce a los</h6>
             <h4 class="text-center fw-bold">ORADORES</h4>
         </div>
         <!-- Aca terminan los titulos -->
@@ -96,7 +96,7 @@
         <!-- Aca comienzan los cards -->
             
         <div class="container">
-          <div class="row">
+          <div class="row mb-3">
             <div class="col order-first">
                 <div class="col">
                     <div class="card h-100">
@@ -139,10 +139,6 @@
            
         <!-- Aca terminan los cards -->
 
-         <!-- Espacio -->
-         <h4 class="text-center fw-bold" hidden>a</h4>
-        <!-- Espacio -->
-
         <!-- Aca empieza el carrusel horizontal -->
         <div class="card mb-3 bg-dark text-white">
             <div class="row g-0">
@@ -160,10 +156,6 @@
           </div>
           <!-- Aca termina el carrusel horizontal -->
 
-         <!-- Espacio -->
-         <h4 class="text-center fw-bold" style="color: white">a</h4>
-        <!-- Espacio -->
-
           <!-- Aca comienzan los titulos -->
         <div class="vstack gap-1">
             <h6 class="text-center fw-normal">Convierte en un</h6>
@@ -174,7 +166,7 @@
 
         <!-- Aca comienza el form -->
         <div class="container-fluid">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center mb-3">
           <div class="col-4">
             <div class="input-group mb-3">
               <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
@@ -192,7 +184,7 @@
              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Sobre que quieres hablar?"></textarea>
           </div>  
          
-          <div class="row justify-content-center">
+          <div class="row justify-content-center mb-3">
           <div class="col-8">
             <h6>
               <small class="text-muted">Recuerda incluir un titulo a la charla</small>
@@ -200,7 +192,7 @@
           </div>
         </div>
 
-        <div class="row justify-content-center">
+        <div class="row justify-content-center mb-3">
           <div class="d-grid gap-2 col-8 mx-auto">
             <button class="btn btn-success" type="button">Enviar</button>
           </div>
@@ -209,10 +201,6 @@
         </div>
       </div>
    <!-- Aca termina el form -->
-
-<!-- Espacio -->
-<h4 class="text-center fw-bold" style="color: white">a</h4>
-<!-- Espacio -->
 
 
 

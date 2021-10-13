@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Trabajo Integrador</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="G:\One Drive\OneDrive\Escritorio\UTN\FULL STACK\Repositorios\HTTSCSSJVBTSP\Trabajo integrador JS\estilos.css"> 
+        <script lang="JavaScript" src="G:\One Drive\OneDrive\Escritorio\UTN\FULL STACK\Repositorios\HTTSCSSJVBTSP\Trabajo integrador JS\js.js"> </script>
+
+    </head>
+
+    <body>
+        <!-- Aca comienza el navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid position-relative">
+                <a class="navbar-brand" href="#">
+                    <img src="G:\One Drive\OneDrive\Escritorio\UTN\FULL STACK\Repositorios\HTTSCSSJVBTSP\Trabajo integrador JS\img\img1.png" alt="60" width="100" height="60" class="d-inline-block">
+                    Conf Bs As
+                </a>
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav" >
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">La Conferencia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Los Oradores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">El lugar y la fecha</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Conviertete en orador</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-success" href="G:\One Drive\OneDrive\Escritorio\UTN\FULL STACK\Repositorios\HTTSCSSJVBTSP\Trabajo integrador JS\index.html">Comprar tickets</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <!-- Aca termina el navbar -->
+
+         <!-- Texto del medio-->
+         <p class="fst-normal text-center fs-6 text-white">
+            VENTA
+        </p>
+        <!--Fin texto del medio-->
+
+        <!-- aca comienzan los cards text-->
+
+        <div class="container">
+            <div class="row justify-content-md-center row-cols-auto">
+              <div class="col">
+                <div class="card border-primary mb-3 card text-center" style="max-width: 18rem;">
+                    <div class="card-body text-dark">
+                    <h5 class="card-title fs-4 fw-bold">Estudiante</h5>
+                    <p class="card-text fs-5">
+                        Tienen un descuento
+                    </p>
+                    <p class="card-text fs-5 fw-bold">
+                        80%
+                    </p>
+                    <p class="card-text fs-5 fw-light">
+                        * presentar documentación 
+                    </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-info mb-3 card text-center" style="max-width: 18rem;">
+                    <div class="card-body text-dark">
+                    <h5 class="card-title fs-4 fw-bold">Trainee</h5>
+                    <p class="card-text fs-5">
+                        Tienen un descuento
+                    </p>
+                    <p class="card-text fs-5 fw-bold">
+                        50%
+                    </p>
+                    <p class="card-text fs-5 fw-light">
+                        * presentar documentación 
+                    </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-warning mb-3 card text-center" style="max-width: 18rem;">
+                    <div class="card-body text-dark">
+                    <h5 class="card-title fs-4 fw-bold">Junior</h5>
+                    <p class="card-text fs-5">
+                        Tienen un descuento
+                    </p>
+                    <p class="card-text fs-5 fw-bold">
+                        15%
+                    </p>
+                    <p class="card-text fs-5 fw-light">
+                        * presentar documentación 
+                    </p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Texto del medio-->
+        <p class="fst-normal text-center fs-5">
+            VENTA
+        </p>
+        <p class="fst-normal text-center fs-3 fw-bold">
+            VALOR DEL TICKET $200
+        </p>
+        <!--Fin texto del medio-->
+        
+        <!--Principio del form-->
+    <form id="formTickets"> 
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+              <div class="col-3">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                </div>
+              </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <div class="input-group mb-3">
+                      <input type="email" class="form-control" placeholder="Correo" aria-label="Correo">
+                    </div>
+                </div>
+             </div>
+
+            <div class="row justify-content-center mb-3">
+             <div class="col-3">
+                <label for="imputCantidad" class="form-label">Cantidad</label>
+                <input type="number" class="form-control" id="inputCantidad">
+            </div>
+              <div class="col-3">
+                <label for="inputSeleccion" class="form-label">Categoria</label>
+                <select id="inputSeleccion" class="form-select">
+                  <option id="op1" selected>Estudiante</option>
+                  <option id="op2">Trainee</option>
+                  <option id="op2">Junior</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="row justify-content-center mb-3">
+                <div class="col-6">
+                    <div class="alert alert-primary" role="alert">
+                        Total a Pagar: $ <span type="number" id="total"></span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center mb-3">
+                <div class="col-3 gap-2 d-grid">
+                    <button type="button" class="btn btn-lg" id="botonesFinales" onclick= "borrar();" >Borrar</button>
+                </div>
+                <div class="col-3 gap-2 d-grid">
+                    <button type="button" class="btn btn-lg" id="botonesFinales" onclick= "resumen();" >Resumen</button>
+                </div>
+            </div>
+
+        </div>
+    </form>
+        <!--Fin del form-->
+
+
+        <!-- Aca comienza el nav -->
+        <nav class="navbar navbar-expand-lg " style="background-color: #3A6EA2;">
+            <div class="container-fluid">
+            <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav"   >
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" style="color:whitesmoke;">Preguntas frecuentes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" style="color:whitesmoke;">Contáctanos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" style="color:whitesmoke;">Prensa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" style="color:whitesmoke;">Conferencias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" style="color:whitesmoke;">Términos y condiciones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" style="color:whitesmoke;">Privacidad</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" style="color:whitesmoke;">Estudiantes</a>
+                </li>
+        
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <!-- Aca termina el nav -->
+       
+    </body>
+</html>
